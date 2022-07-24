@@ -7,11 +7,11 @@ In this blog post we'll see how we can setup root access and remap remote button
 <b>The content in this blog post is for educational purposes only. Use the content as per the regulations.</b> 
 
 
-We will use following steps to setup `Onn. 4k Streaming box`. All the scripts mentioned in this post can be found on my Github repo -> [Onn. 4k Streaming Box Rooting and Remote Button Remapping](https://github.com/amit-raut/Onn.-4k-Streaming-Box-Rooting-and-Remote-Button-Remapping)
+We will use following steps to setup `Onn. 4k Streaming box`. All the scripts mentioned in this post can be found on my GitHub repo -> [Onn. 4k Streaming Box Rooting and Remote Button Remapping](https://github.com/amit-raut/Onn.-4k-Streaming-Box-Rooting-and-Remote-Button-Remapping)
 
-### Step 1: Perform initial setup with upgrade and Google signin
+### Step 1: Perform initial setup with upgrade and Google sign-ng
 
-Configure the Onn. 4k streaming device normally to setup remote and the initial Google signin. 
+Configure the Onn. 4k streaming device normally to setup remote and the initial Google sign-in. 
 
 ### Step 2: Enable Developer Option and USB debugging
 
@@ -19,7 +19,7 @@ Go to `Settings -> Device Preferences -> About -> Build` and press `Build` optio
 
 This should trigger a pop-up to allow USB debugging when the Onn. 4k streaming box is connected to a Linux system. Select always allow debugging option for the Linux system.
 
-### Step 3: Use `Unlock-Bootloader.sh` sctipt
+### Step 3: Use `Unlock-Bootloader.sh` script
 
 When executed `Unlock-Bootloader.sh` script, the script will perform following actions:
 
@@ -46,10 +46,10 @@ Use the `Set-Root.sh` script. When script is executed it will perform following 
 
 ### Step 6: Build custom boot.img with Magisk (Steps to be performed on Onn. 4k streaming box)
 
-To buid a custom boot.img file and get root perform following steps on Onn. 4k streaming box:
+To build a custom boot.img file and get root perform following steps on Onn. 4k streaming box:
 
 1. Install a file browser from `Play Store`
-2. Open file browser and navigte to `/sdcard/Downloads/`
+2. Open file browser and navigate to `/sdcard/Downloads/`
 3. Install `Magisk.apk`
 4. Open Magisk app 
    ![Magisk](Images/m1.png)
@@ -104,9 +104,9 @@ Onn. 4k streaming box contains following pre-installed apps:
 
 Run `Remove-Bloatware.sh` script to remove the pre-installed apps you do not need.
 
-### Step 9: Install some userful apps
+### Step 9: Install some useful apps
 
-Use `Install-Useful-Apk.sh` to install the apps you like on your Android Tv. Here are some useful apps for the android TV:
+Use `Install-Useful-Apk.sh` to install the apps you like on your Android TV. Here are some useful apps for the android TV:
 
 1. [SmartTubeNext](https://github.com/yuliskov/SmartTubeNext/releases/tag/14.96)
 
