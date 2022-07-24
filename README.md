@@ -89,7 +89,7 @@ Use `Remap-Remote-Buttons.sh` script to remap the remote buttons. When script is
 
 Once the device comes back online. No button mapping will be present for the buttons like `YouTube`, `Netflix`, `Disney+`, `HBOMAX`. Install `Button Mapper` application from `Play Store`, grant superuser access to `Button Mapper` and remap the buttons on the remote as per your liking.
 
-### Step 8: Remove bloatware from Onn. 4k streaming box
+### Step 9: Remove bloatware from Onn. 4k streaming box
 
 Onn. 4k streaming box contains following pre-installed apps:
 
@@ -104,7 +104,7 @@ Onn. 4k streaming box contains following pre-installed apps:
 
 Run `Remove-Bloatware.sh` script to remove the pre-installed apps you do not need.
 
-### Step 9: Install some useful apps
+### Step 10: Install some useful apps
 
 Use `Install-Useful-Apk.sh` to install the apps you like on your Android TV. Here are some useful apps for the android TV:
 
