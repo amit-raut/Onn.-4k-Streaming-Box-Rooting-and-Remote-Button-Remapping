@@ -23,7 +23,7 @@ This should trigger a pop-up to allow USB debugging when the Onn. 4k streaming b
 
 When executed `Unlock-Bootloader.sh` script, the script will perform following actions:
 
-- unlock the bootloader with adb commands
+Unlock the bootloader with adb commands
 ```adb reboot bootloader
 fastboot devices
 fastboot flashing unlock
