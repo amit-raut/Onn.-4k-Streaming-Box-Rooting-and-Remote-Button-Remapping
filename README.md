@@ -51,7 +51,7 @@ Now the boot loader is unlocked repeat steps 1 and 2 to setup the Onn. 4k stream
 
 Use the [Set-Root.sh](https://github.com/amit-raut/Onn.-4k-Streaming-Box-Rooting-and-Remote-Button-Remapping/blob/main/Set-Root.sh) script. When script is executed it will perform following actions:
 
-- Download the Onn. 4k Streaming box firmware from [https://download.ods.ninja/Android/firmware/dopinder/dopinder-qt.20210519-factory.zip](https://download.ods.ninja/Android/firmware/dopinder/dopinder-qt.20210519-factory.zip)
+- Download the Onn. 4k Streaming box firmware from ~~[https://download.ods.ninja/Android/firmware/dopinder/dopinder-qt.20210519-factory.zip](https://download.ods.ninja/Android/firmware/dopinder/dopinder-qt.20210519-factory.zip)~~ [https://u.pcloud.link/publink/show?code=XZvdNJ0ZpUYLpHQ4H986VavfRg5RnkphLuIk](https://u.pcloud.link/publink/show?code=XZvdNJ0ZpUYLpHQ4H986VavfRg5RnkphLuIk)
 - Validate md5sum of the firmware with `08fa86ced3da6c50aafe8395fce27fe9`
 - Extract the firmware to current working directory
 - Download latest Magisk APK
